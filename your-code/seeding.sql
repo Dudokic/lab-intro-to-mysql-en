@@ -16,14 +16,14 @@ INSERT INTO dealership.customers (customer_id, f_name, l_name, phone_number, ema
 (30001, "Napoléon Bonaparte", "+33 1 79 75 40 00", "-", "40 Rue du Colisée", "Paris", "France", "75008");
 
 INSERT INTO dealership.salesperson (staff_id, f_name, l_name, store) VALUES
-("00001", "Petey", "Cruiser", "Madrid"),
-("00002", "Anna", "Sthesia", "Barcelona"),
-("00003", "Paul", "Molive", "Berlin"),
-("00004", "Gail", "Forcewind", "Paris"),
-("00005", "Paige", "Turner", "Mimia"),
-("00006", "Bob", "Frapples", "Mexico City"),
-("00007", "Walter", "Melon", "Amsterdam"),
-("00008", "Shonda", "Leer", "São Paulo");
+(00001, "Petey", "Cruiser", "Madrid"),
+(00002, "Anna", "Sthesia", "Barcelona"),
+(00003, "Paul", "Molive", "Berlin"),
+(00004, "Gail", "Forcewind", "Paris"),
+(00005, "Paige", "Turner", "Mimia"),
+(00006, "Bob", "Frapples", "Mexico City"),
+(00007, "Walter", "Melon", "Amsterdam"),
+(00008, "Shonda", "Leer", "São Paulo");
 
 INSERT INTO dealership.invoices (invoice_nr, date, vin, customer_id, staff_id) VALUES
 
